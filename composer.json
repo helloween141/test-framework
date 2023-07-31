@@ -1,0 +1,25 @@
+{
+  "name": "helloween141/test-framework",
+  "description": "Test framework",
+  "autoload": {
+    "psr-4": {
+      "": "src/",
+      "App\\": "app/"
+    }
+  },
+  "authors": [
+    {
+      "name": "helloween141",
+      "email": "helloween141@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=8.1",
+    "ext-pdo": "*",
+    "php-di/php-di": "^7.0",
+    "symfony/http-foundation": "^6.2"
+  },
+  "require-dev": {
+    "symfony/var-dumper": "^6.2"
+  }
+}
